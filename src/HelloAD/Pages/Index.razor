@@ -1,0 +1,14 @@
+﻿@page "/"
+@inject HttpClient Http
+
+<PageTitle>Hello.Blazor.Wasm</PageTitle>
+<div>@MarkupString</div>
+
+@code {
+	protected override async Task OnInitializedAsync()
+	{
+		MarkupString = (MarkupString)Markdig.Markdown.ToHtml(await Http.GetStringAsync("README.md"));
+
+	}
+	private MarkupString MarkupString { get; set; }
+}
