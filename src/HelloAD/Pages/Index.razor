@@ -15,7 +15,10 @@
 	private MarkupString MarkupString { get; set; }
 	private string GetTestVar()
 	{
-		if(Env)
+		if(Environment.GetEnvironmentVariable("TEST_VAR") == null)
+		{
+			Environment.SetEnvironmentVariable("TEST_VAR", "TEST_VAR is not set");
+		}
 		return Environment.GetEnvironmentVariable("TEST_VAR");
 	}
 }

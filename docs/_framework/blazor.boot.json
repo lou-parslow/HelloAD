@@ -1,7 +1,7 @@
 {
   "entryAssembly": "HelloAD",
   "resources": {
-    "hash": "sha256-87qOiCsGIn60bOi0WoXZPhJo0e+w73/l5tHudft/hl8=",
+    "hash": "sha256-d+4jTiYtwpEffOfVVq+Lt6/Ol95bdw/Go33HUduJGyw=",
     "runtime": {
       "dotnet.7.0.12.hommvbbe0i.js": "sha256-cPJgWy8SjMaYFeimGkYy23ls+rDZVmoC/eMoHpqRc+4=",
       "dotnet.timezones.blat": "sha256-O421u5MzVtmNN7GY9RXR9Ib1uPK4hQfPpzOVofr7iNU=",
@@ -11,7 +11,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "HelloAD.dll": "sha256-aDapjBDiJI0RJQWjTSwwwMXjTyLJmYTXJosj5cFLfjE=",
+      "HelloAD.dll": "sha256-m8qzIO0/B1UtHgz9HZFoUuQPpSaNEXT7avD/7GHow0s=",
       "Markdig.dll": "sha256-/zBLNTAFSwzmj9Qq3hOzX4jN+IzlZOPHCL3qEU4t8BQ=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-qqhzG0tRrHRxZ1ryEEaEKl4zbox3U7OySfBUz2dEsEM=",
       "Microsoft.AspNetCore.Components.Authorization.dll": "sha256-ISzJmpek6ba3R/4Dqyjm+FHr7bm8L/ECggznynL3V30=",
@@ -46,7 +46,7 @@
       "System.Net.Http.dll": "sha256-AtrdKziCBfuKtgsL4gxnlPO1/zKhV2O2aaVj7uIVPQg=",
       "System.Net.Primitives.dll": "sha256-KTpgLeoe9jn+5p3GZnwQ3f4KS/GEMVcBs0T6j1CpQzE=",
       "System.ObjectModel.dll": "sha256-YdBAQcOJ05COKmJFVrkLYVtifUI2GjteiKmbn30AOLI=",
-      "System.Private.CoreLib.dll": "sha256-Q+ZZxSfpuVOtAba9rfTBl3IQgi70TbrfGRIiF3yO/HQ=",
+      "System.Private.CoreLib.dll": "sha256-qHoK9mkY5baZTX0aOy8IHnFzZPm5SJkv5/mVqozApHc=",
       "System.Private.Uri.dll": "sha256-8x2re4QXC7suwoAcStmGjwG1ctrtfo7VFQOT+zRsClQ=",
       "System.Runtime.CompilerServices.Unsafe.dll": "sha256-1GT8K2mqWu0Z/lq3+pXvygdFWgvGiBygUSYphioX/TA=",
       "System.Runtime.dll": "sha256-I1FgxBcWx2q5VzBEXZbD4GHHe1KD73pNwOrH4KC0iKU=",
