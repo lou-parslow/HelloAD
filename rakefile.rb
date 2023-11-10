@@ -12,7 +12,7 @@ task :build do
   FileUtils.cp_r "dist/wwwroot/.", SITE_DIR
   # for github pages, a .nojekyll file is required to prevent github from ignoring files starting with an underscore
   File.open("#{SITE_DIR}/.nojekyll", "w") { }
-  Raykit::Text::replace_in_file("#{SITE_DIR}/index.html", '<base href="/" />', '<base href="/Hello.Blazor.Wasm/" />')
+  Raykit::Text::replace_in_file("#{SITE_DIR}/index.html", '<base href="/" />', '<base href="/HelloAD/" />')
 end
 
 task :update_docs => [:build] do

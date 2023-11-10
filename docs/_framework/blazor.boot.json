@@ -1,7 +1,7 @@
 {
   "entryAssembly": "HelloAD",
   "resources": {
-    "hash": "sha256-F3ozogOzxcX6g6eXwNRHY8sI/jVCq8B3yk+z8n/ItGM=",
+    "hash": "sha256-rsYtYIe0LyrvKHCfgav2Y5U9mZL6MJ+0A97caqWoDoY=",
     "runtime": {
       "dotnet.7.0.12.hommvbbe0i.js": "sha256-cPJgWy8SjMaYFeimGkYy23ls+rDZVmoC/eMoHpqRc+4=",
       "dotnet.timezones.blat": "sha256-a4pddX9qZIPKCk1twUjxMmZqJTAVBMUW+ACKh3Dijmw=",
@@ -11,7 +11,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "HelloAD.dll": "sha256-WB4a2bonlFfqkLhkP2oulYSpK724aePM5KZBH1i1u3A=",
+      "HelloAD.dll": "sha256-LcIPw3CZzfEd6XVVvBXxr7sBpHTouHQ1QnhSKhLfysA=",
       "Markdig.dll": "sha256-/zBLNTAFSwzmj9Qq3hOzX4jN+IzlZOPHCL3qEU4t8BQ=",
       "Microsoft.AspNetCore.Components.dll": "sha256-rhcyJcNSmHA6XdC5v9aocWdBU6ZPGduewSUpcgJMLXc=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-NXNSPYU7em1AlAnFJ8AJeeltog5RTwLt+SdhtVVCtqA=",
