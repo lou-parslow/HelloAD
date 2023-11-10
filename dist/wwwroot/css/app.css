@@ -1,20 +1,5 @@
 @import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
-/* Light Theme */
-:root {
-	--background-color: #ffffff;
-	--text-color: #000000;
-	/* other light theme styles */
-}
-
-/* Dark Theme */
-.dark-theme {
-	--background-color: #000000;
-	--text-color: #ffffff;
-	/* other dark theme styles */
-}
-
-
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }

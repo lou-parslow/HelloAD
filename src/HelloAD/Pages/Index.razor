@@ -1,24 +1,9 @@
 ﻿@page "/"
-@inject HttpClient Http
 
-<PageTitle>HelloAD</PageTitle>
-<div>@MarkupString</div>
+<PageTitle>Index</PageTitle>
 
-<div>TEST_VAR</div>
-<div>@GetTestVar()</div>
-@code {
-	protected override async Task OnInitializedAsync()
-	{
-		MarkupString = (MarkupString)Markdig.Markdown.ToHtml(await Http.GetStringAsync("README.md"));
+<h1>Hello, world!</h1>
 
-	}
-	private MarkupString MarkupString { get; set; }
-	private string GetTestVar()
-	{
-		if(Environment.GetEnvironmentVariable("TEST_VAR") == null)
-		{
-			Environment.SetEnvironmentVariable("TEST_VAR", "TEST_VAR is not set");
-		}
-		return Environment.GetEnvironmentVariable("TEST_VAR");
-	}
-}
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />

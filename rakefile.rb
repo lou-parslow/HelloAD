@@ -3,6 +3,10 @@ VERSION="0.0.0"
 require "raykit"
 SITE_DIR="artifacts/HelloAD.#{VERSION}"
 
+task :setup do
+  run "dotnet new blazorwasm -o src/HelloAD -au SingleOrg --client-id CLIENT_ID --tenant-id TENANT_ID -f net7.0 -n HelloAD" unless Dir.exist? "src/HelloAD"
+end
+
 task :build do
  FileUtils.cp("README.md","src/HelloAD/wwwroot/")
   run "dotnet publish src/HelloAD/HelloAD.csproj -c Release -o dist"

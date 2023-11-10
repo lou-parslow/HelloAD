@@ -1,0 +1,35 @@
+﻿@page "/"
+@using HelloAD.Data;
+@inject HttpClient Http
+@inject OneDriveService OneDriveService
+
+<PageTitle>HelloAD</PageTitle>
+<div>@MarkupString</div>
+
+<h1>OneDrive Files</h1>
+
+@if (files == null)
+{
+	<p><em>Loading...</em></p>
+}
+else
+{
+	foreach (var file in files)
+	{
+		<p>@file</p>
+	}
+}
+
+@code {
+	protected override async Task OnInitializedAsync()
+	{
+		MarkupString = (MarkupString)Markdig.Markdown.ToHtml(await Http.GetStringAsync("README.md"));
+		files = await OneDriveService.GetOneDriveFilesAsync();
+
+	}
+	private MarkupString MarkupString { get; set; }
+
+	private IEnumerable<string> files;
+
+
+}
