@@ -4,6 +4,8 @@
 <PageTitle>HelloAD</PageTitle>
 <div>@MarkupString</div>
 
+<div>TEST_VAR</div>
+<div>@GetTestVar()</div>
 @code {
 	protected override async Task OnInitializedAsync()
 	{
@@ -11,4 +13,9 @@
 
 	}
 	private MarkupString MarkupString { get; set; }
+	private string GetTestVar()
+	{
+		if(Env)
+		return Environment.GetEnvironmentVariable("TEST_VAR");
+	}
 }
