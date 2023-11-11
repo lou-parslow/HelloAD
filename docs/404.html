@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<script>
+		var path = location.pathname;
+		document.location = '/index.html?path=' + path;
+	</script>
+	<script>
+		window.onload = function () {
+			var urlParams = new URLSearchParams(window.location.search);
+			var path = urlParams.get('path');
+			if (path) {
+				window.history.replaceState({}, '', path);
+			}
+		}
+	</script>
+
+</head>
+<body>
+
+</body>
+</html>
